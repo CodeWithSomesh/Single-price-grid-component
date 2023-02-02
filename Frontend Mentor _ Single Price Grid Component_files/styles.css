@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+
+    background-color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 110vh;
+    overflow: hidden;
+
+
+
+}
+
+.card {
+
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 3%; 
+    border-radius: 10px;
+    text-align: left;
+    overflow: hidden;
+    
+}
+
+h1, h3, h6 {
+
+    font-weight: 700;
+}
+
+.upper-section, .bottom-right-section, .bottom-left-section {
+
+    padding: 7% 7% 5% 7%;
+}
+
+/* Upper Section of the Card */
+
+.upper-section {
+
+    background-color: white;
+}
+
+.upper-section h3{
+
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 6%;
+}
+
+.upper-section h6{
+
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 3%;
+    
+}
+
+.upper-section p{
+
+    color: hsl(218, 22%, 67%);
+    font-size: 14.3px;
+    margin-bottom: 1%;
+}
+
+
+
+/* Lower Section of the Card */
+
+.lower-section {
+
+    display: flex;
+    
+    color: white;
+
+}
+
+.bottom-left-section {
+
+    background-color: hsl(179, 62%, 43%);
+    
+}
+.bottom-left-section h6{
+
+    margin-bottom: 6%; 
+}
+
+.price-section {
+
+    display: flex;
+}
+
+.per-month-text {
+
+    font-size: 16px;
+    color: hsl(204, 43%, 93%, 0.5);
+    font-size: 400;
+    margin: 6% 4% 0;
+}
+
+
+.bottom-left-section p{
+
+    
+    font-size: 14.3px;
+    margin-bottom: 18px;
+}
+
+button {
+
+    background-color: hsl(71, 73%, 54%);
+    border: 0;
+    border-radius: 5px;
+    height: 45px;
+    width: 215.425px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+
+
+
+.bottom-right-section {
+
+    background-color: 	hsl(179, 62%, 43%, 0.8);
+
+}
+
+.bottom-right-section h6{
+
+    margin-bottom: 6%; 
+}
+
+.bottom-right-section p{
+
+    margin: 0;
+    color: hsl(204, 43%, 93%, 0.8);
+    font-size: 13px;
+}
+
+
+/* Attribution */
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    background-color: aqua;
+    border-radius: 19px;
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.attribution a { 
+    margin-left: 1%;
+    color: hotpink; 
+    
+}
