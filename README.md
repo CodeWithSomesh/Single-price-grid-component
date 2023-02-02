@@ -1,7 +1,6 @@
-# Frontend Mentor - Single price grid component
+# Frontend Mentor - Single Price Grid Component
 
-
-Profile Card Component | Frontend Mentor Challenge
+Single Price Grid Component | Frontend Mentor Challenge
 
 📝Brief Intro
 
